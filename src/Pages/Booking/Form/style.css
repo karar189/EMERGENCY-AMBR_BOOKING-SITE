@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.form-container {
+  width: 300px;
+  height: 450px;
+  padding: 50px;
+  background: #263238;
+  opacity: 0.85;
+  /* border-radius: 10px; */
+  position: relative;
+}
+
+.header {
+  color: rgb(249, 248, 248);
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  top: 20px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.progress-bar {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 400px;
+  height: 10px;
+  background-color: transparent;
+  /* border-radius: 30px 0px 0px 30px; */
+}
+.progress-bar div {
+  width: 20.3%;
+  height: 100%;
+  background-color: #5fdcc6;
+  transition: width 0.5s ease-in-out;
+  border-radius: 27px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+button {
+  border: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 34px;
+}
+
+.back-btn {
+  border: 2px solid #5fdcc6;
+  border-radius: 5px;
+  color: aliceblue;
+  height: 43px;
+  width: 120px;
+  background: #263238;
+  opacity: 0.85;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+}
+.back-btn:hover {
+  background: #5fdcc6;
+  color: #263238;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.next-btn {
+  height: 43px;
+  width: 120px;
+  background: #5fdcc6;
+  border-color: #263238;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400px;
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+}
+.next-btn:hover {
+  background: #b1fff1;
+
+  cursor: pointer;
+  transition: 0.2s;
+}

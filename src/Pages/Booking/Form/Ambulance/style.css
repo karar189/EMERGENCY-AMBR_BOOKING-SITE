@@ -1,0 +1,104 @@
+.ambulance-card {
+  height: 100px;
+  width: 260px;
+  display: flex;
+  padding: 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  color: azure;
+  font-size: 12px;
+}
+
+.card2 {
+  padding: 0px 0px 0px 0px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.abu-detail {
+  padding-right: 10px;
+}
+.abu-detail p {
+  font-size: 12px;
+  color: azure;
+}
+.abu-price {
+  padding-left: 5px;
+}
+.abu-price .priceColor {
+  font-size: 12px;
+
+  color: #5fdcc6;
+}
+label {
+  width: 100%;
+  padding: 0px;
+}
+
+.card-input-element {
+  display: none;
+}
+
+.card-input {
+  margin: 10px;
+}
+
+.card-input:hover {
+  cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+  /* box-shadow: 4px 0 5px 4px #051d1e; */
+  border-left: #5fdcc6 2px solid;
+
+  /* border-radius: 8px; */
+  width: 280px;
+}
+div.scroll2 {
+  margin: 4px, 4px;
+  padding: 4px;
+
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+.scroll2::-webkit-scrollbar {
+  width: 10px;
+}
+
+.open-btn:hover {
+  box-shadow: 0 0 5px rgb(1, 85, 1);
+}
+
+.how-to-close {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.drawer-content {
+  margin: 0 10px;
+}
+
+.payment-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  width: 250px;
+  color: aliceblue;
+}
+.pay-btn {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: 250ms box-shadow;
+  box-shadow: none;
+  transform: none;
+  cursor: pointer;
+}

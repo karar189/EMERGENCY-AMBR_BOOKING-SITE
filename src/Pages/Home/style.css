@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  overflow-y: hidden;
+}
+.section-hero {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.hero-data {
+  padding: 5px;
+}
+
+.primary-heading {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 69px;
+  text-align: center;
+}
+
+.secondary-heading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 51px;
+  text-align: center;
+  padding: 1px;
+  color: rgb(29, 29, 29);
+}
+
+.btn_1 {
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.Acc-btn {
+  background-color: #5fdcc6;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Acc-btn:hover {
+  background-color: #97ffea;
+  border: rgba(0, 0, 0, 0.103) 1px solid;
+  transition: 0.2 ease-in;
+  border-radius: 5px;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Acc-btn p {
+  color: #37474f;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-content: center;
+}
+.car {
+  padding-top: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.ambulance-animation {
+  display: flex;
+  justify-content: center;
+}
